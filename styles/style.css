@@ -25,6 +25,11 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+.raleway-42 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+}
 
 .btn-primary {
   font-family: "Raleway", sans-serif;
@@ -78,4 +83,76 @@ body {
   font-size: 65px;
   text-align: center;
   max-width: 900px;
+}
+
+/* action section */
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 115px auto;
+}
+
+.action img {
+  border-radius: 48px;
+}
+
+.action .left {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+
+  width: 517px;
+}
+.action p {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgba(37, 36, 50, 0.5);
+}
+
+/* productive-users */
+
+.productive-users {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(78, 71, 255, 0.1);
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px 142px;
+  border-radius: 24px;
+}
+
+.users-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.productive-users .counts {
+  display: flex;
+  gap: 160px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.count-title {
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #4e47ff;
+}
+
+.count-text {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
 }
