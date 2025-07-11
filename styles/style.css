@@ -241,3 +241,54 @@ body {
   border-radius: 48px;
   margin-bottom: 71px;
 }
+
+.get-in-touch {
+  display: flex;
+  gap: 115px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.touch-column {
+  width: 50%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.get-in-touch .left {
+  display: flex;
+  align-items: center;
+}
+
+.touch-column h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 97px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.get-in-touch input[type="text"],
+.get-in-touch input[type="email"],
+.get-in-touch textarea {
+  height: 70px;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 93%;
+  border-radius: 5px;
+  border: 1px solid #d6dded;
+
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  opacity: 50%;
+  padding-left: 32px;
+}
+.get-in-touch textarea {
+  height: 135px;
+}
+.get-in-touch label {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 120%;
+}
+.btn-submit {
+  width: 100%;
+}
