@@ -42,6 +42,7 @@ body {
   color: #ffffff;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 
 /* header section */
@@ -328,4 +329,13 @@ body {
   list-style: none;
   gap: 48px;
   margin-bottom: 104px;
+}
+
+.btn-primary:hover {
+  background-color: yellowgreen;
+  padding: 12px 38px;
+}
+
+.btn-submit:hover {
+  padding: 19px 36px;
 }
